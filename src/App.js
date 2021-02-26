@@ -1,10 +1,10 @@
-import Button from './components/Button/Button'
+import Header from './components/Header/Header'
 import './App.css'
 
 const App = () => {
   return (
     <div className="App">
-      <Button>Click</Button>
+      <Header />
     </div>
   )
 }
