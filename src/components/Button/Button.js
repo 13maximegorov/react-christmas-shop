@@ -5,11 +5,11 @@ import './Button.css'
 
 const button = cn('button')
 
-const Button = ({className, children, onClick, href}) => {
+const Button = ({className, children, onClick, href, link}) => {
   return (
     <a
       href={href}
-      className={classnames(className, button())}
+      className={classnames(className, button({link: link}))}
       onClick={onClick}
     >
       {children}
