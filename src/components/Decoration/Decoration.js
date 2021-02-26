@@ -25,7 +25,7 @@ const Decoration = () => {
 
         <Grid className={decoration('container')}>
           {decorationItems.map((item, index) =>
-            <div className={decoration('data')}>
+            <div className={decoration('data')} key={index}>
               <img src={item.img} alt="decoration" className={decoration('img')}/>
               <h3 className={decoration('title')}>{item.title}</h3>
               <Button link>В Корзину</Button>
