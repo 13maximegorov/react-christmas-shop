@@ -1,0 +1,18 @@
+.home__container {
+    row-gap: .5rem;
+}
+
+.home__img {
+    width: 280px;
+    justify-self: center;
+}
+
+.home__title {
+    font-size: var(--biggest-font-size);
+    font-weight: var(--font-bold);
+    margin-bottom: var(--mb-2);
+}
+
+.home__description {
+    margin-bottom: var(--mb-3);
+}
