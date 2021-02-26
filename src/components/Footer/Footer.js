@@ -2,8 +2,6 @@ import cn from '../../utils/cn'
 import Section from '../Section/Section'
 import Container from '../Container/Container'
 import Grid from '../Grid/Grid'
-import SectionTitle from '../SectionTitle/SectionTitle'
-import Button from '../Button/Button'
 import LogoDark from '../../img/logo/logo_dark.png'
 import './Footer.css'
 
