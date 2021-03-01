@@ -34,3 +34,47 @@
     width: 280px;
     justify-self: center;
 }
+
+@media screen and (max-width: 359px) {
+    .send__img {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .send__container {
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        padding: 5rem 0 0;
+    }
+
+    .send__description {
+        text-align: initial;
+    }
+
+    .send__img {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .send {
+        background: none;
+    }
+
+    .send__container {
+        background: var(--first-color-send);
+        padding: 2rem;
+        border-radius: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 968px) {
+    .send__img {
+        width: 469px;
+    }
+
+    .send__container {
+        column-gap: 5rem;
+    }
+}

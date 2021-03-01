@@ -16,3 +16,41 @@
 .home__description {
     margin-bottom: var(--mb-3);
 }
+
+@media screen and (max-width: 359px) {
+    .home__img {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .home__container {
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        padding: 5rem 0 0;
+    }
+
+    .home__img {
+        order: 1;
+    }
+
+    .home__img {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .home__container {
+        padding: 7rem 0 0;
+    }
+}
+
+@media screen and (min-width: 968px) {
+    .home__img {
+        width: 469px;
+    }
+
+    .home__container {
+        column-gap: 5rem;
+    }
+}

@@ -10,3 +10,39 @@
     width: 280px;
     justify-self: center;
 }
+
+@media screen and (max-width: 359px) {
+    .share__img {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .share__container {
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        padding: 5rem 0 0;
+    }
+
+    .share__data {
+        text-align: initial;
+    }
+
+    .share__img {
+        width: 100%;
+    }
+
+    .share__img {
+        order: -1;
+    }
+}
+
+@media screen and (min-width: 968px) {
+    .share__img {
+        width: 469px;
+    }
+
+    .share__container {
+        column-gap: 5rem;
+    }
+}
